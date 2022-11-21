@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css2 new</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="full-screen hidden" id="pop">
+      <p>I am popup</p>
+    <button onclick="closePopup()" class="btn">X</button>
+  </div>
+
+<div id="header">Header</div>
+<div id="mid">
+	<div id="mid-left">Sidebar</div>
+	<div id="mid-right">
+		<div id="r1">Main Content</div>
+		<div id="r2">Extra Content</div>
+	</div>
+</div>
+<div id="footer">Footer</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+	<!--<script>
+		function func1()
+		{
+			document.getElementById("header").style.backgroundColor= "pink";
+
+		}
+		function func2()
+		{
+			document.getElementById("sidebar").innerHTML= "<b>Leftbar</b>";
+		}
+		function func3()
+		{
+			document.getElementById("main").style.visibility="hidden";
+
+		}
+
+		function closePopup()
+     {
+       document.getElementById("pop").style.display= "none";
+     }
+    function openPopup()
+     {
+       document.getElementById("pop").style.display= "inline-block";
+     }
+
+	</script> -->
+
+</html>
